@@ -1,0 +1,291 @@
+* {
+  font-family: 'Roboto', sans-serif; }
+
+a {
+  display: inline-block;
+  color: #fff;
+  border: 1px solid #ffdb00;
+  border-radius: 25px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-right: 76px;
+  padding-left: 76px;
+  margin-bottom: 220px; }
+  a:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: #ffdb00;
+    border-color: #fff; }
+
+#main {
+  background-color: blacK; }
+  #main .container .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    #main .container .header .overlay {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: black;
+      background-color: rgba(0, 0, 0, 0.9);
+      overflow-x: hidden;
+      transition: 0.5s; }
+      #main .container .header .overlay .overlay-content {
+        position: relative;
+        top: 25%;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px; }
+      #main .container .header .overlay a {
+        padding: 8px !important;
+        text-decoration: none;
+        margin: 8px !important;
+        border: none;
+        font-size: 36px;
+        color: #818181;
+        display: block;
+        transition: 0.3s; }
+        #main .container .header .overlay a:hover {
+          color: #f1f1f1; }
+        #main .container .header .overlay a:focus {
+          color: #f1f1f1; }
+      #main .container .header .overlay .closebtn {
+        position: absolute;
+        top: 20px;
+        right: 45px;
+        font-size: 60px; }
+    #main .container .header img {
+      margin-top: 42px;
+      margin-left: 12px; }
+    #main .container .header .menu {
+      color: black;
+      font-size: 20px;
+      cursor: pointer;
+      border: 1px solid #ffdb00;
+      background-color: #ffdb00;
+      padding: 10px 15px; }
+  #main .container .main-content {
+    margin-top: 230px; }
+    #main .container .main-content h1 {
+      color: #ffdb00;
+      font-size: 150px;
+      margin-bottom: 40px; }
+    #main .container .main-content p {
+      color: #fff;
+      font-size: 15px;
+      margin-bottom: 20px; }
+
+#content .services {
+  background-color: #ffdb00; }
+  #content .services .services-up {
+    padding-top: 100px;
+    padding-bottom: 100px; }
+    #content .services .services-up h3 {
+      color: #000;
+      font-size: 20px; }
+#content .services-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #fff; }
+  #content .services-details .cards {
+    margin-bottom: 80px;
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-around; }
+    #content .services-details .cards .services-card {
+      margin-right: 70px; }
+      #content .services-details .cards .services-card img {
+        margin-bottom: 55px; }
+      #content .services-details .cards .services-card h2 {
+        color: #ffdb00;
+        font-size: 30px;
+        margin-bottom: 55px;
+        letter-spacing: 5px; }
+      #content .services-details .cards .services-card p {
+        font-size: 15px;
+        color: #000; }
+#content .stats {
+  background-color: black; }
+  #content .stats .cardcontainer {
+    display: flex;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    justify-content: space-around; }
+    #content .stats .cardcontainer .stats-card img {
+      display: block;
+      margin: auto; }
+    #content .stats .cardcontainer .stats-card h3 {
+      color: #fff;
+      font-size: 60px;
+      justify-content: center;
+      text-align: center;
+      margin-top: 60px; }
+    #content .stats .cardcontainer .stats-card p {
+      color: #ffdb00;
+      letter-spacing: 2px;
+      font-size: 20px;
+      margin-top: 55px; }
+
+#portfolio .works {
+  margin-top: 115px;
+  display: flex; }
+  #portfolio .works h3 {
+    color: #ffdb00;
+    font-size: 50px;
+    margin-bottom: 60px; }
+  #portfolio .works p {
+    color: black;
+    font-size: 20px;
+    margin-bottom: 120px; }
+  #portfolio .works ul {
+    display: flex;
+    justify-content: center; }
+    #portfolio .works ul li {
+      list-style: none; }
+      #portfolio .works ul li span a {
+        margin-right: 30px !important;
+        border: 1px solid #ffdb00;
+        border-radius: 0;
+        color: black;
+        padding-top: 15px !important;
+        padding-bottom: 15px !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        margin-bottom: 115px !important; }
+        #portfolio .works ul li span a.active {
+          background-color: #ffdb00; }
+#portfolio .portfolio-content .item {
+  background-color: #ffdb00; }
+  #portfolio .portfolio-content .item h4 {
+    color: black;
+    font-size: 30px; }
+  #portfolio .portfolio-content .item p {
+    color: white;
+    font-size: 20px;
+    margin-top: 60px; }
+  #portfolio .portfolio-content .item a {
+    border: 1px solid white !important;
+    color: black;
+    padding: 20px 50px;
+    border-radius: 0; }
+#portfolio .moreProjects {
+  display: flex;
+  justify-content: center; }
+  #portfolio .moreProjects a {
+    color: black;
+    margin-bottom: 120px;
+    margin-top: 120px; }
+#portfolio .client {
+  background-color: black; }
+  #portfolio .client .slider-top h1 {
+    padding-top: 100px;
+    color: #ffdb00;
+    font-size: 50px; }
+  #portfolio .client .slider-top p {
+    padding-top: 45px;
+    color: white;
+    font-size: 20px; }
+
+#clients {
+  background-color: black; }
+  #clients .client {
+    padding-bottom: 100px; }
+    #clients .client .slider-top h1 {
+      padding-top: 100px;
+      color: #ffdb00;
+      font-size: 30px; }
+    #clients .client .slider-top p {
+      color: white;
+      font-size: 20px;
+      padding-top: 40px;
+      padding-bottom: 40px; }
+    #clients .client .items .item img {
+      width: 100px;
+      height: 50px; }
+
+#contact .contact-top h3 {
+  color: #ffdb00;
+  font-size: 50px;
+  margin-bottom: 50px;
+  margin-top: 100px; }
+#contact .contact-top p {
+  color: black;
+  font-size: 20px;
+  margin-bottom: 100px; }
+#contact .contact-form .form-row {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  #contact .contact-form .form-row input,
+  #contact .contact-form .form-row textarea {
+    border: 1px solid black; }
+  #contact .contact-form .form-row button {
+    border: 1px solid #ffdb00;
+    border-radius: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 175px;
+    padding-left: 175px;
+    margin-bottom: 95px; }
+    #contact .contact-form .form-row button:hover {
+      text-decoration: none;
+      cursor: pointer;
+      color: #ffdb00;
+      border-color: black; }
+#contact .contact-data {
+  background-color: #ffdb00; }
+  #contact .contact-data .cont-card {
+    display: flex;
+    padding-top: 120px;
+    padding-bottom: 120px; }
+    #contact .contact-data .cont-card .card-infom {
+      display: flex;
+      align-items: center; }
+      #contact .contact-data .cont-card .card-infom p {
+        color: black;
+        margin-left: 30px; }
+
+#footer {
+  background-color: black; }
+  #footer .top-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    #footer .top-footer .footer-up {
+      margin-top: 125px;
+      margin-bottom: 60px; }
+      #footer .top-footer .footer-up p {
+        font-size: 25px;
+        color: white; }
+        #footer .top-footer .footer-up p b {
+          color: #ffdb00; }
+    #footer .top-footer .social a {
+      border: none;
+      margin-right: 30px;
+      color: white;
+      margin-left: 0 !important;
+      padding: 0; }
+      #footer .top-footer .social a:hover {
+        color: #ffdb00; }
+  #footer .page-up {
+    display: flex;
+    justify-content: flex-end; }
+    #footer .page-up .scrolltop {
+      position: fixed;
+      right: 10px;
+      bottom: 10px;
+      color: #fff; }
+    #footer .page-up a {
+      border: none;
+      padding-right: 385px;
+      margin-bottom: 24px;
+      margin-top: 24px; }
+
+/*# sourceMappingURL=main.css.map */
