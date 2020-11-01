@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  align-items: stretch; }
+  .wrapper #sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    background-color: #242b2e;
+    color: #fff;
+    transition: all .3s; }
+    .wrapper #sidebar.active {
+      margin-left: -250px; }
+    .wrapper #sidebar .navbar {
+      padding: 0; }
+      .wrapper #sidebar .navbar .navbar-brand {
+        width: 100%;
+        background-color: white;
+        padding: 0;
+        margin: 0; }
+      .wrapper #sidebar .navbar .main-menu {
+        width: 100%; }
+        .wrapper #sidebar .navbar .main-menu .nav-item {
+          text-align: right;
+          border-bottom: 1px solid #293034; }
+          .wrapper #sidebar .navbar .main-menu .nav-item a {
+            background-color: #31383c;
+            color: white;
+            font-weight: 300; }
+            .wrapper #sidebar .navbar .main-menu .nav-item a:hover {
+              background-color: #2db8b7;
+              transition: .5s; }
+      .wrapper #sidebar .navbar .sidebar-heading {
+        width: 100%;
+        text-align: right;
+        padding: 15px; }
+        .wrapper #sidebar .navbar .sidebar-heading span {
+          font-size: 16px;
+          font-weight: 100;
+          padding-right: 5px;
+          line-height: 16px;
+          vertical-align: bottom; }
+          .wrapper #sidebar .navbar .sidebar-heading span:hover {
+            color: #2db8b7;
+            font-weight: 400; }
+      .wrapper #sidebar .navbar .works-menu {
+        width: 100%; }
+        .wrapper #sidebar .navbar .works-menu .nav-item {
+          text-align: right;
+          padding: 0; }
+          .wrapper #sidebar .navbar .works-menu .nav-item a {
+            color: #6b7072;
+            font-size: 13px;
+            padding-top: 0;
+            padding-bottom: 0; }
+            .wrapper #sidebar .navbar .works-menu .nav-item a:hover {
+              color: white; }
+      .wrapper #sidebar .navbar .social-icons ul {
+        list-style-type: none;
+        padding-right: 15px;
+        padding-top: 20px;
+        border-top: 1px solid #293034; }
+        .wrapper #sidebar .navbar .social-icons ul li {
+          float: right;
+          margin-left: 8px; }
+      .wrapper #sidebar .navbar .copyright {
+        width: 100%;
+        text-align: right;
+        font-size: 13px;
+        color: #6b7072;
+        padding-right: 15px; }
+
+/*# sourceMappingURL=main.css.map */

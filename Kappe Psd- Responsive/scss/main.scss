@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+$sidebar-background:#242b2e;
+$border-color:#293034;
+$button-background:#31383c;
+$hover-color:#2db8b7;
+$menu-color:#6b7072;
+// Sidebar
+.wrapper{
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+    #sidebar{
+        min-width: 250px;
+        max-width: 250px;
+        background-color: $sidebar-background;
+        color:#fff;
+        transition: all .3s;
+        &.active{
+            margin-left: -250px;
+        }
+        .navbar{
+            padding: 0;
+            .navbar-brand{
+                width: 100%;
+                background-color: white;
+                padding: 0;
+                margin: 0;
+            }
+            .main-menu{
+                width: 100%;
+                .nav-item{
+                    text-align: right;
+                    border-bottom: 1px solid $border-color;
+                    a{
+                        background-color: $button-background;
+                        color:white;
+                        font-weight: 300;
+                        &:hover{
+                            background-color: $hover-color;
+                            transition: .5s;
+                        }
+                    }
+                }
+            }
+            .sidebar-heading{
+                width: 100%;
+                text-align: right;
+                padding: 15px;
+                span{
+                    font-size: 16px;
+                    font-weight: 100;
+                    padding-right: 5px;
+                    line-height: 16px;
+                    vertical-align: bottom;
+                    &:hover{
+                        color:$hover-color;
+                        font-weight: 400;
+                    }
+                }
+            }
+            .works-menu{
+                width: 100%;
+                .nav-item{
+                 text-align: right;
+                 padding: 0;
+                 a{
+                     color: $menu-color;
+                     font-size: 13px;
+                     padding-top: 0;
+                     padding-bottom:0;
+                     &:hover{
+                         color:white;
+                     }
+                 }
+                }
+            }
+            .social-icons{
+                ul{
+                    list-style-type: none;
+                    padding-right: 15px;
+                    padding-top: 20px;
+                    border-top: 1px solid $border-color;
+                    li{
+                        float: right;
+                        margin-left: 8px;
+                    }
+                }
+            }
+            .copyright{
+                width: 100%;
+                text-align: right;
+                font-size: 13px;
+                color:$menu-color;
+                padding-right: 15px;
+        }
+    }
+}}
